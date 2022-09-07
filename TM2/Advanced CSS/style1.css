@@ -1,4 +1,55 @@
-h1{
-    text-align: center;
+
+body{
+    margin: 10px;
+    background-color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
 }
 
+
+
+header p{
+    font-style: italic;
+}
+
+.spanleft{
+    float: right;
+    color:lightslategray
+}
+
+#autor{
+    font-family:monospace;
+    float: left;
+
+}
+
+blockquote{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-style: oblique;
+    color: lightseagreen;
+   
+}
+
+.block{
+    float: right;
+    width: 350px;
+}
+
+figcaption{
+    font-size: small;
+    float: left;
+}
+
+
+
+.img1{
+    left: 0px;
+    display: inline;
+    
+}
+
+.box{
+    display: inline-block;
+    justify-content: center;
+}
