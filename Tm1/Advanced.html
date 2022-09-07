@@ -10,7 +10,7 @@
     <style>
         body {
             background-color: rgb(37, 40, 68);
-            padding-bottom: 20000px;
+            padding-bottom: 1000px;
             padding-top: 100px;
             position: relative;
         }
@@ -42,7 +42,7 @@
             z-index: 1;
             margin-top: 60px;
             margin-right: 500px;
-            font-family: arial,roboto;
+            font-family: arial, roboto;
 
         }
 
@@ -92,6 +92,10 @@
             cursor: pointer;
         }
 
+
+
+
+
         .title:hover {
             letter-spacing: 2px;
             transition: 0.6s;
@@ -117,6 +121,27 @@
         }
 
 
+
+
+        .middle-title {
+            color: white;
+            font-family: arial, roboto;
+            font-weight: 900;
+            text-align: center;
+            transition: 0.6s;
+            cursor: pointer;
+        }
+
+        .middle-title:hover {
+            letter-spacing: 2px;
+            transition: 0.6s;
+            color: rgb(25, 213, 0);
+
+        }
+
+
+
+
         .header {
             background-color: rgb(52, 73, 105);
             position: fixed;
@@ -128,7 +153,7 @@
             padding-bottom: 20px;
             border-radius: 30px;
             box-shadow: 1px 1px 3px 0px rgba(25, 213, 0);
-            
+
 
 
         }
@@ -141,33 +166,34 @@
             padding-left: 10px;
             border-style: solid;
             border-radius: 10px;
-            color: white;
+            color: rgb(25, 213, 0);
             background-color: rgb(14, 5, 57);
-            font-family: arial,roboto;
+            font-family: arial, roboto;
             font-weight: 500;
+
         }
     </style>
 </head>
 
 <body>
-<div class="header-box">
-    <header class="header">
+    <div class="header-box">
+        <header class="header">
 
 
-        <div class="tooltip">
-            <button class="btn"><a href="/TM2/Excercies 1 HTML/index.html" class="aaaa">Back</a></button>
-            <span class="tooltiptext">One page Back</span>
-        </div>
-    
-    
-        <div class="tooltip">
-            <button class="btn"><a href="/TM2/Exercise1 CSS/excercise1.html" class="aaaa">Next</a></button>
-            <span class="tooltiptext">Next Page</span>
-        </div>
+            <div class="tooltip">
+                <button class="btn"><a href="/TM2/Excercies 1 HTML/index.html" class="aaaa">Back</a></button>
+                <span class="tooltiptext">One page Back</span>
+            </div>
+
+
+            <div class="tooltip">
+                <button class="btn"><a href="/TM2/Exercise1 CSS/excercise1.html" class="aaaa">Next</a></button>
+                <span class="tooltiptext">Next Page</span>
+            </div>
 
             <input type="bar" placeholder="Search" class="search-bar">
-    </header>
-</div>
+        </header>
+    </div>
 
 
 
@@ -211,6 +237,65 @@
 
         </div>
     </div>
+
+    <div class="middle-box">
+
+        <H1 class="middle-title">
+            The Interview of the Actors
+        </H1>
+        <div>
+            <iframe style="display: inline; border-radius: 20px; 
+                padding-bottom: 50px;" width="400" height="240" src="https://www.youtube.com/embed/I-VpoZrmITc"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <p class="par">
+                Dwayne talks about attending Jumanji: The Next Level premieres <br #>all over the world, speaking at
+                Kevin Hars Hand & Footprint Ceremony, <br>
+                their friendship, buying his parents houses, <br>
+                doing Danny DeVitos voice in Jumanji,
+                <br> his infamous fanny pack photo and his new tequila brand.
+            </p>
+        </div>
+
+        <div>
+            <iframe style="display: inline; border-radius: 20px;
+                padding-bottom: 50px" width="400" height="240" src="https://www.youtube.com/embed/5WI6MHH7Y7I"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+            <p class="par"> <br>
+                The Tonight Show Starring Jimmy Fallon features hilarious highlights from <br>
+                the show including: comedy sketches, music parodies, celebrity interviews,<br>
+                ridiculous games, and, of course, Jimmy's Thank You Notes<br>
+                and hashtags! You'll also find behind the scenes videos<br>
+                and other great web exclusives.
+            </p>
+
+        </div>
+
+        <div>
+            <iframe style="display: inline; border-radius: 20px;
+                padding-bottom: 50px" width="400" height="240" src="https://www.youtube.com/embed/1z4Haf0fjDc"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+
+
+            <p class="par">
+                Tom Holland talks about working with Toby Maguire and Andrew Garfield in <br>
+                Spider-Man: No Way Home, reveals the only time hell dare tease Mark <br>
+                Wahlberg and dishes on his insane stunts in Uncharted.
+            </p>
+
+        </div>
+
+    </div>
+
+
+
 
 </body>
 
