@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(43, 45, 62);
+}
+
+.png {
+    max-width: 200px;
+    max-height: 200px;
+    margin-left: 85px;
+
+}
+
+
+
+
+.title {
+    color: white;
+    font-weight: 900;
+    display: inline;
+    margin-left: 160px;
+    font-family: arial,roboto;
+
+}
+
+
+title:hover {
+    letter-spacing: 1px;
+    color: rgb(36, 196, 36);
+}
+
+.title-row {
+margin-top: 30px;
+}
