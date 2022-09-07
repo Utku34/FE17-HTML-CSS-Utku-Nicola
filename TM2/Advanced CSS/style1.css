@@ -1,55 +1,93 @@
-
-body{
+body {
     margin: 10px;
     background-color: antiquewhite;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
 }
 
+h1 {
+    text-align: center;
+}
 
+h2 {
+    text-align: center;
+}
 
-header p{
+header p {
     font-style: italic;
 }
 
-.spanleft{
+.spanleft {
     float: right;
-    color:lightslategray
+    color: lightslategray;
 }
 
-#autor{
-    font-family:monospace;
+#autor {
+    font-family: monospace;
     float: left;
 
 }
 
-blockquote{
+blockquote {
     font-size: 30px;
     font-family: sans-serif;
     font-style: oblique;
     color: lightseagreen;
-   
+
 }
 
-.block{
+.block {
     float: right;
     width: 350px;
 }
 
-figcaption{
+figcaption {
     font-size: small;
     float: left;
 }
 
 
 
-.img1{
-    left: 0px;
+.img1 {
+
     display: inline;
-    
+    float: left;
 }
 
-.box{
+.box {
     display: inline-block;
-    justify-content: center;
+    width: 400px;
+    height: 150px;
+    padding-left: 30px;
+    float: left;
+    align-items: center;
+
+}
+
+
+
+#donate {
+    font-size: 30px;
+    border-radius: 10px;
+    border-color: darkgreen;
+    color: lightseagreen;
+    cursor: pointer;
+
+}
+
+#subscribe {
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: darkgreen;
+    color: rgb(146, 178, 32);
+    cursor: pointer;
+}
+
+#donate:hover {
+    color: lightgreen;
+    border-color: lightseagreen;
+}
+
+h5 {
+    color: lightseagreen;
 }
