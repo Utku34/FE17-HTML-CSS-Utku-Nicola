@@ -10,40 +10,206 @@
     <style>
         body {
             background-color: rgb(37, 40, 68);
+            padding-bottom: 20000px;
+            padding-top: 100px;
+            position: relative;
+        }
+
+
+
+
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;
+            transition: 0.6s;
+        }
+
+        .tooltiptext:hover {
+            transition: 0.6s;
+        }
+
+
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding: 5px 0;
+            border-radius: 6px;
+            position: absolute;
+            z-index: 1;
+            margin-top: 60px;
+            margin-right: 500px;
+            font-family: arial,roboto;
 
         }
+
+
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+
+        }
+
+
 
 
         .img {
             max-width: 250px;
             max-height: 250px;
-            margin-left: 200px;
+            margin: 25px;
+            vertical-align: center;
+            transition: 0.6s;
+            border-radius: 20px;
+        }
+
+        img:hover {
+            box-shadow: 1px 1px 30px 1px rgb(201, 201, 201);
+            transition: 0.6s;
         }
 
         .aaaa {
             text-decoration: none;
             color: white;
         }
+
         .aaaa:hover {
             color: rgb(25, 213, 0);
         }
 
         .aaaa:active {
-            color:black;
+            color: black;
 
+        }
+
+        .title {
+            color: white;
+            font-family: arial, roboto;
+            font-weight: 900;
+            text-align: center;
+            transition: 0.6s;
+            cursor: pointer;
+        }
+
+        .title:hover {
+            letter-spacing: 2px;
+            transition: 0.6s;
+
+        }
+
+        .subtitle {
+            color: white;
+            font-family: arial, roboto;
+            font-weight: 200;
+            text-align: center;
+            transition: 0.9s;
+        }
+
+        .subtitle:hover {
+            font-weight: 900px;
+            transition: 0.6s;
+            color: rgb(178, 255, 190);
+        }
+
+        .bbbbb {
+            margin-top: 50px;
+        }
+
+
+        .header {
+            background-color: rgb(52, 73, 105);
+            position: fixed;
+            display: block;
+            right: 3px;
+            left: 3px;
+            top: 0px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-radius: 30px;
+            box-shadow: 1px 1px 3px 0px rgba(25, 213, 0);
+            
+
+
+        }
+
+
+        .search-bar {
+            margin-left: 800px;
+            width: 250px;
+            height: 30px;
+            padding-left: 10px;
+            border-style: solid;
+            border-radius: 10px;
+            color: white;
+            background-color: rgb(14, 5, 57);
+            font-family: arial,roboto;
+            font-weight: 500;
         }
     </style>
 </head>
 
 <body>
-    <button  class="btn"><a href="" class="aaaa">Back</a></button>
-    <button class="btn"><a href="" class="aaaa">Next</a></button>
-    <div style="margin-top: 50px;
-    ">
-        <img src="/a1.jpg" alt="" class="img">
-        <img src="/a2.jpg" alt="" class="img">
-        <img src="/a3.jpg" alt="" class="img">
+<div class="header-box">
+    <header class="header">
 
+
+        <div class="tooltip">
+            <button class="btn"><a href="/TM2/Excercies 1 HTML/index.html" class="aaaa">Back</a></button>
+            <span class="tooltiptext">One page Back</span>
+        </div>
+    
+    
+        <div class="tooltip">
+            <button class="btn"><a href="/TM2/Exercise1 CSS/excercise1.html" class="aaaa">Next</a></button>
+            <span class="tooltiptext">Next Page</span>
+        </div>
+
+            <input type="bar" placeholder="Search" class="search-bar">
+    </header>
+</div>
+
+
+
+
+
+    <div class="bbbbb">
+        <div class="boxes">
+            <img src="/Tm1/a4.webp" alt="" class="img">
+            <h2 class="title">Dwayne Johnson</h2>
+            <p class="subtitle">Dwayne Douglas Johnson, auch bekannt <br>
+                als The Rock, ist ein US-amerikanisch-<br>
+                kanadischer Schauspieler<br>
+                und ehemaliger Wrestler. Als Wrestler <br>
+                erhielt er zehnmal den <br>
+                höchsten Titel der WWE und war damit <br>
+                einer der erfolgreichsten <br>
+                Akteure der Liga, und ist 50 Jahre alt.</p>
+        </div>
+        <div class="boxes">
+            <img src="/a2.jpg" alt="" class="img">
+            <h2 class="title">Robert Downey Jr.</h2>
+            <p class="subtitle">Robert John Downey Jr. <br>
+                ist ein US-amerikanischer<br>
+                Schauspieler. Als Sohn des Filmemachers<br>
+                Robert Downey Sr.<br>
+                kam er früh mit der Filmindustrie in <br>
+                Berührung und hatte bereits<br>
+                als Kind kleinere Filmrollen in dessen <br>
+                Filmen gespielt,<br>
+                bevor er sich entschied, Schauspieler <br>
+                zu werden, und ist 57 Jahre alt.</p>
+        </div>
+        <div class="boxes">
+            <img src="/a3.jpg" alt="" class="img">
+            <h2 class="title">Tom Holland</h2>
+            <p class="subtitle">Thomas Stanley Holland ist<br>
+                ein britischer
+                Schauspieler und Tänzer.<br>
+                Große Bekanntheit erlangte<br>
+                er als Spider-Man, und ist 26 Jahre alt.</p>
+
+        </div>
     </div>
 
 </body>
